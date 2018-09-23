@@ -1,0 +1,25 @@
+
+
+
+
+i.fa-facebook-official {
+	margin-left:20px;
+}
+
+/*
+footer {
+	margin-top: -160px; 
+ overflow: auto; 
+ position: relative; 
+} */
+
+.centered {
+	text-align: center;
+}
+
+div.foot {
+	margin-top:0px;
+}
+h3.stat {
+	margin-left:-160px;
+}

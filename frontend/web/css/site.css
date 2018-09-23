@@ -1,0 +1,230 @@
+html{
+    height: 100%;
+}
+body {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.xx {
+    color:blue;
+}
+
+#footer {
+    background-color: #4A6FA5;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+#footer i {
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+}
+
+#footer i:hover {
+    color: #FFDAB9 ;
+}
+
+#footer p {
+    color: white;
+    font-size: 15px;
+    font-family: serif;
+    color:#c0c0c0;
+}
+
+
+.wrap {
+    min-height: 90%;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+    /*background-color: #E5E6E4;*/
+    background-color: #F0FFFF;
+    color: #46494C;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.wrap > .container-fluid {
+    padding: 70px 15px 20px;
+}
+
+.footer2 {
+    min-height: 10%;
+    background-color: #4A6FA5;
+    color:#fff;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    border-bottom: 2px solid #4A6FA5;
+}
+
+/* .site-login, .site-contact, .site-signup, .site-request-password-reset{
+    margin: 0;
+    padding: 0;
+    background-color: #FBFBF2;
+    border: 1px solid rgba(0,0,0,0.2);
+    position: relative;
+} */
+
+.panel{
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+.ds > h3{
+    background-color: #4A6FA5;
+    color: #fff;
+}
+
+.thumb > span{
+    background-color: transparent;
+    color: #4A6FA5;
+}
+
+.thumb > span > i{
+    font-size: 2rem;
+}
+
+.hot-news{
+    padding: 10px 25px 10px 25px;
+}
+
+.my-wrapper{
+    border: 1px solid rgba(0,0,0,0.2);
+    background-color: #FBFBF2;
+    padding: 10px;
+}
+
+.explain{
+    border: 2px solid #4A6FA5;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 15px;
+}
+
+.btn-primary{
+    background-color: #4A6FA5;
+    border: none;
+
+    color: #FBFBF2;
+}
+
+.btn-primary:focus{
+    background-color: #4A6FA5;
+    border: none;
+    color: #FBFBF2;
+}
+
+/*
+.footer {
+    height: 60px;
+    background: url("/img/1.jpg") no-repeat;*/
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+   /* background-color: #000; 
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}*/
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: "\e151";
+}
+
+a.desc:after {
+    content: "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view td {
+    white-space: nowrap;
+}
+
+.grid-view .filters input,
+.grid-view .filters select {
+    min-width: 50px;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}

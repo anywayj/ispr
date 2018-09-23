@@ -1,0 +1,148 @@
+
+
+.ff {
+	color:#130e27;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    color:#00008B;
+}
+h3 {
+    color:blue               ;
+}
+h4 {
+    color:blue     ;
+}
+p {
+    color:#000   ;
+}
+
+th#th {
+	width:30%;
+}
+td.td1 {
+    color:#130e27;
+    font-weight: bold; 
+    background-color: #FFFFE0;
+}
+.td2 {
+    background-color: red;
+    font-weight: bold; 
+    
+}
+
+.x {
+    color:red;
+}
+
+table#table th {
+	padding-top:20px; 
+	padding-bottom:20px;
+	background: #333; 
+  	color: white; 
+  	font-weight: bold; 
+    white-space: normal;
+}
+
+table#table td {padding-top:20px; padding-bottom:20px;}
+
+table#table .td11 { text-align:left;
+white-space: normal; font-size: 17px;}
+table#table th, table#table td { text-align:center;}
+td {
+    background: #FFFAFA  ; 
+    white-space: nowrap;
+    color:#130e27       ;   
+
+}
+td#td {
+    color:blue;
+    background: #FFFFE0;  
+}
+
+table { 
+  width: 100%; 
+  border-collapse: collapse;  
+}
+
+/*
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+   
+    table, thead, tbody,  td, tr, th { 
+        display: block; 
+    }
+    
+   
+    thead tr { 
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    
+    
+   
+
+    td { 
+       
+        border: none;
+         
+        position: relative;
+        padding-left: 50%; 
+    }
+    
+    td:before { 
+        
+        position: absolute;
+       
+        top: 20px;
+        left: 0px;
+        width: 45%; 
+        padding-right: 50px; 
+        white-space: nowrap;
+    }
+    
+    
+    
+    td:nth-of-type(2):before { content: "Группа 1"; font-weight: bold; }
+    td:nth-of-type(3):before { content: "Группа 2"; font-weight: bold; }
+    td:nth-of-type(4):before { content: "Группа 3"; font-weight: bold; }
+    td:nth-of-type(5):before { content: "Группа 4"; font-weight: bold; }
+    td:nth-of-type(6):before { content: "Группа 5"; font-weight: bold; }
+    td:nth-of-type(7):before { content: "Группа 6"; font-weight: bold; }
+    td:nth-of-type(8):before { content: "Группа 7"; font-weight: bold; }
+    
+    
+}
+
+.contant1 {
+	background: url("/files/12.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    	
+}
+
+#tr2 {
+    color:blue;
+    background-color: #FFFFE0;
+}
+
+#tr3 {
+    color:white;
+    background-color: red;
+}
+
+#example .new { opacity: 0; }
+#example .div_opacity {
+  -webkit-transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -ms-transition: opacity .2s ease-in-out;
+  -o-transition: opacity .2s ease-in-out;
+  transition: opacity .2s ease-in-out;
+  opacity: 1;
+}

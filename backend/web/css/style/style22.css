@@ -1,0 +1,90 @@
+/*
+* clip-path masks
+*/
+
+/* core */
+
+.cpm{
+  display: inline-block;
+  padding: var(--cpmStrokeThickness, 3px);
+  -webkit-clip-path: var(--cpmMask);
+          clip-path: var(--cpmMask);
+  background-color: var(--cpmStrokeColor, #fff);
+}
+
+.cpm__img{
+  display: block;
+  -webkit-clip-path: var(--cpmMask);
+          clip-path: var(--cpmMask);
+}
+
+/* masks */
+
+
+
+.cpm_type2{
+  --cpmMask: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+
+
+/* animations for masks */
+
+.cpm{
+  -webkit-transition: -webkit-clip-path var(--cpmAnimationDuration, .2s) var(--cpmAnimationTimingFunction, ease-out);
+  transition: -webkit-clip-path var(--cpmAnimationDuration, .2s) var(--cpmAnimationTimingFunction, ease-out);
+  transition: clip-path var(--cpmAnimationDuration, .2s) var(--cpmAnimationTimingFunction, ease-out);
+  transition: clip-path var(--cpmAnimationDuration, .2s) var(--cpmAnimationTimingFunction, ease-out), -webkit-clip-path var(--cpmAnimationDuration, .2s) var(--cpmAnimationTimingFunction, ease-out);
+}
+
+.cpm__img{
+  -webkit-transition: -webkit-clip-path var(--cpmAnimationDuration, .2s) var(--cpmAnimationTimingFunction, ease-out);
+  transition: -webkit-clip-path var(--cpmAnimationDuration, .2s) var(--cpmAnimationTimingFunction, ease-out);
+  transition: clip-path var(--cpmAnimationDuration, .2s) var(--cpmAnimationTimingFunction, ease-out);
+  transition: clip-path var(--cpmAnimationDuration, .2s) var(--cpmAnimationTimingFunction, ease-out), -webkit-clip-path var(--cpmAnimationDuration, .2s) var(--cpmAnimationTimingFunction, ease-out);
+}
+
+
+
+/* effect 2*/
+
+.cpm_type2-a1{
+  --cpmAnimationDuration: .4s;
+}
+
+.cpm_type2:hover, .cpm_type2:focus{
+  --cpmMask: polygon(100% 0, 100% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+}
+
+
+
+@media screen and (max-width: 640px){
+
+  .melnik909{
+    display: none;
+  } 
+}
+
+.tile__img{
+  width: 250px;
+  height: 100%;
+}
+
+
+
+
+@media screen and (min-width: 481px) and (max-width: 767px){
+  
+  .tile{
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 480px){
+  
+  .tile{
+    width: 100px;
+    height: 100px;
+  }  
+}
